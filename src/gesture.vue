@@ -18,7 +18,6 @@
   export default {
     name: 'gesture',
     render () {
-      console.log(this.$slots.default[0])
       if (!this.$slots.default || this.$slots.default.length !== 1) {
         throw new Error('slots number is not one.')
       }
